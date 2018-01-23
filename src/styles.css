@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Roboto;
+    font-size: 20px;
+    background: lightgray;
+}
+
+.center{
+    text-align: center;
+    margin-top: 10vw;
+}
+
+h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    margin-bottom: .5em;
+}
+
+input.id{
+    border: 2px solid gray;
+    text-align: center;
+    padding: 1em 2em;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+}
+
+button, input.id{
+    border-radius: .5em;
+    font-size: 2em;
+}
+
+button{
+    padding: 1em 2em;
+    border: 0;
+    font-weight: bold;
+}
+
+button.in{
+    background-color: green;
+}
+
+button.out{
+    background-color: red;
+}
